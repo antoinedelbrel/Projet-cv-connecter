@@ -1,0 +1,218 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+#first_block{
+    display:inline; 
+}
+#nav{
+    float:right;
+    text-align:center;
+    padding:0;
+    margin:0;
+    word-spacing:10px;
+}
+li{
+    display:inline;
+    list-style:none;
+}
+.lien{
+    text-decoration:none;
+    color:black;
+}
+.lien:hover{
+    color:rgb(53, 139, 179);
+}
+.titre{
+    
+    text-decoration:none;
+    color:black; 
+    font-family: 'Work Sans', sans-serif;
+} 
+#parent{
+    display:flex;
+    justify-content:space-between;
+}
+#second_block{
+    flex:1;
+    background:black;
+    min-height: 100vh;
+}
+.identite{
+    width:150px;
+    margin-left:80px;
+}
+#coordonees{
+    color:white;
+    display:flex;
+    justify-content:space-between;
+}
+#gauche{
+    flex:1;
+    flex-direction: column;
+}
+#droite{
+    flex:2;
+    flex-direction: column;
+}
+.coor{
+    color:white;
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+}
+.cv{
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+}
+#loisir{
+    color:white;
+    text-align:center;
+     
+}
+.lois{
+    color:white;
+}
+#third_block{
+    flex:4;
+}
+h3{
+    text-align:center;
+}
+#haut{
+    display:flex;
+    justify-content:space-between;
+}
+#profile{
+    width:50%;
+}
+.profil{
+    text-align:center;
+}
+#competence{
+    width:50%;
+}
+#niveau{
+    display:flex;
+    justify-content:space-around;
+}
+#langage{
+    display:flex;
+    flex:1;
+}
+#barre{
+    display:flex;
+    flex:2;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+#htmlcss{
+    height:20px;
+    width:300px;
+    background-color: grey;
+    border-radius: 15px;
+}
+#html{
+    background-color: black;
+    height:100%;
+    width:80%;
+    border-radius:15px;
+}
+#js{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#djs{
+    background-color: black;
+    height:100%;
+    width:65%;
+    border-radius:15px;
+}
+#jquery{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#jq{
+    background-color: black;
+    height:100%;
+    width:30%;
+    border-radius:15px;
+}
+#python{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#py{
+    background-color: black;
+    height:100%;
+    width:50%;
+    border-radius:15px;
+}
+#langageC{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#c{
+    background-color: black;
+    height:100%;
+    width:40%;
+    border-radius:15px;
+}
+#langageR{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#r{
+    background-color: black;
+    height:100%;
+    width:35%;
+    border-radius:15px; 
+}
+#langagesql{
+    height:20px;
+    width:300px;
+    background-color: gray;
+    border-radius: 15px;
+}
+#sql{
+    background-color: black;
+    height:100%;
+    width:20%;
+    border-radius:15px;
+}
+#bas{
+    display:flex;
+    justify-content:space-between;
+    padding-top: 50px;
+}
+#formation{
+    width:50%;
+}
+.format°{
+    text-align:center;
+}
+#exp_pro{
+    width:50%;
+}
+.exp{
+    text-align: center;
+}
+.kairos{
+    text-decoration:none;
+    color:black;
+}
+.kairos:hover{
+    color:rgb(53, 139, 179);
+}

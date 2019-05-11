@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+#first_block{
+    padding-top:0px;
+    background-color:black;
+    height:54px;
+    height:-54px;
+}
+#nav{
+    text-align:center;
+    float:right;
+    padding:0;
+    margin:0;
+    word-spacing:10px;
+    color:white;
+}
+li{
+    list-style:none;
+    display:inline;
+    
+}
+.lien{
+    text-decoration:none;
+    color:white;;
+}
+.lien:hover{
+    color:rgb(53, 139, 179);
+}
+.prenom{
+    color:white;
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+#second{
+    background-image:url(beach.jpg);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    min-height: 100vh; 
+}
+#third{
+    
+    
+    flex-direction:column;
+}
+.titre{
+    text-align: center;
+    font-size: 40px;
+}
+.info{
+    padding-top:100px;
+    text-align:center;   
+}
+#pied{
+    display: inline;   
+}
+.foot{
+    text-align: center;
+    padding-top:50px;
+}
+#reseaux{
+    justify-content: center;
+    justify-content: space-around;
+    display:flex;
+}
+.linkedin{
+    width:100px;
+}
+.facebook{
+    width:60px;
+}
+.twitter{
+    width:120px;
+} 
