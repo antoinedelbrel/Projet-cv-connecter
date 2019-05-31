@@ -15,9 +15,10 @@
                     <li><a class="lien" href="cv.php" alt="cv">CV</a></li>
                     <li><a class="lien" href="projet.php" alt="projet">PROJETS</a></li>
                     <li><a class="lien" href="contact.php" alt="contact">CONTACT</a></li>
+                    <li><a class="lien" href="id.php" alt="identification">S'IDENTIFIER</a></li>
                 </ul>
             </nav>
-            <h1><a class="titre" href="index.html" alt="titre">Antoine Delbrel</a></h1>
+            <h1><a class="titre" href="index.php" alt="titre">Antoine Delbrel</a></h1>
         </div>
         <div id="parent">
             <div id="second_block">

@@ -14,7 +14,8 @@
                     <li><a class="lien" href="index.php" alt="index">ACCUEIL</a></li>
                     <li><a class="lien" href="cv.php" alt="cv">CV</a></li>
                     <li><a class="lien" href="projet.php" alt="projet">PROJETS</a></li>
-                    <li><a class="lien" href="contact.php" alt="contact">CONTACT</a></li>    
+                    <li><a class="lien" href="contact.php" alt="contact">CONTACT</a></li>
+                    <li><a class="lien" href="id.php" alt="identification">S'IDENTIFIER</a></li>    
                 </ul>    
             </nav>
             <h1 class="prenom">Antoine Delbrel</h1>
@@ -29,9 +30,9 @@
         <footer id="pied">
             <p class="foot">Vous pouvez me joindre sur les reseaux suivant :</p>
             <div id="reseaux">
-                <a href="https://www.linkedin.com/feed/" target="_blank"><img class="linkedin" src="logo-linkedin.jpg" alt="linkedin"></a>
-                <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="logo-facebook.jpg" alt="facebook"></a>
-                <a href="https://twitter.com/" target="_blank"><img class="twitter" src="twitter-logo.jpg" alt="twitter"></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img class="linkedin" src="logo-linkedin.png" alt="linkedin"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="facebook" src="logo-facebook.png" alt="facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img class="twitter" src="logo-twitter.png" alt="twitter"></a>
             </div>
         </footer>  
 	</body>

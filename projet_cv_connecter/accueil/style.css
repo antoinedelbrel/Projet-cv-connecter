@@ -4,19 +4,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
 }
-#first_block{
-    padding-top:0px;
-    background-color:black;
-    height:54px;
-    height:-54px;
-}
+
 #nav{
     text-align:center;
     float:right;
     padding:0;
     margin:0;
     word-spacing:10px;
-    color:white;
+    
 }
 li{
     list-style:none;
@@ -25,13 +20,13 @@ li{
 }
 .lien{
     text-decoration:none;
-    color:white;;
+    ;
 }
 .lien:hover{
     color:rgb(53, 139, 179);
 }
 .prenom{
-    color:white;
+    
     text-align: left;
     font-family: 'Work Sans', sans-serif;
 }
@@ -71,8 +66,8 @@ li{
     width:100px;
 }
 .facebook{
-    width:60px;
+    width:100px;
 }
 .twitter{
-    width:120px;
+    width:100px;
 } 

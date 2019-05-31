@@ -15,22 +15,23 @@
                     <li><a class="lien" href="cv.php" alt="cv">CV</a></li>
                     <li><a class="lien" href="projet.php" alt="projet">PROJETS</a></li>
                     <li><a class="lien" href="contact.php" alt="contact">CONTACT</a></li>
+                    <li><a class="lien" href="id.php" alt="identification">S'IDENTIFIER</a></li>
                 </ul>
             </nav>
-            <h1><a class="titre" href="index.html" alt="titre">Antoine Delbrel</a></h1>
+            <h1><a class="titre" href="index.php" alt="titre">Antoine Delbrel</a></h1>
         </div>
         <div id="projet">
             <h2>Projets</h2>
             <div id="block">
                 <div id="pong">
-                    <!-- <button class="jeu" type="button">--><a class="git" href="https://github.com/antoinedelbrel/Pong" alt="pong" target="_blank"> <div>Projet pong</div></a><!-- </button> -->      
+                <a class="git" href="https://github.com/antoinedelbrel/Pong" alt="pong" target="_blank"> <div>Projet pong</div></a>      
                 </div>
                 
                 <div id="markdown">
-                    <!-- <button class="converter" type="button"> --><a class="git" href="https://github.com/antoinedelbrel/projet-site-statique" alt="markdown" target="_blank">Projet markdown to html</a><!-- </button> -->
+                <a class="git" href="https://github.com/antoinedelbrel/projet-site-statique" alt="markdown" target="_blank">Projet markdown to html</a>
                 </div>
                 <div id="plante">
-                   <!-- <button class="planteco" type="button"> --><a class="git" href="https://github.com/tlnkorr/project_connected_plant" alt="plante" target="_blank">projet plante connectee</a><!-- </button> -->
+                <a class="git" href="https://github.com/tlnkorr/project_connected_plant" alt="plante" target="_blank">projet plante connectee</a>
                 </div>
             </div>
         </div>
