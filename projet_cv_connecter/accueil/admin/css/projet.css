@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+#tete{
+    display:inline; 
+}
+#nav{
+    float:right;
+    text-align:center;
+    padding:0;
+    margin:0;
+    word-spacing:10px;
+}
+li{
+    display:inline;
+    list-style:none;
+}
+.lien{
+    text-decoration:none;
+    color:black;
+}
+.lien:hover{
+    color:rgb(53, 139, 179);
+}
+.titre{
+    text-decoration:none;
+    color:black; 
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-size:40px;
+    
+}
+#block{
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+}
+#pong{
+    background-color: blue;
+    width:25%;
+    height:100px;
+    border-radius:15px;
+    padding-top:50px;
+}
+#markdown{
+    background-color:blue;
+    width:25%;
+    height:100px;
+    border-radius:15px;
+    padding-top:50px;
+}
+#plante{
+    background-color:blue;
+    width:25%;
+    height:100px;
+    border-radius:15px;
+    padding-top:50px;
+}
+.git{
+    text-decoration:none;
+    color:black;    
+}
+#new{
+    background-color:blue;
+    width:25%;
+    height:100px;
+    border-radius:15px;
+    padding-top:500px;
+}
+
+#pied{
+    display: inline;
+     
+    background-color: #000; 
+    
+}
+.foot{
+    text-align: center;
+    padding-top:20px;
+}
+#reseaux{
+    padding-top:20px;
+    justify-content: space-evenly;
+    display:flex;
+}
+.linkedin:hover{
+    color:rgb(53, 139, 179);
+}
+.linkedin{
+    text-decoration: none;
+    color:black;
+    width:50px;
+}
+/* .facebook{
+    width:100px;
+}
+.twitter{
+    width:100px;
+}  */
+.github:hover{
+    color:rgb(53, 139, 179);
+}
+.github{
+    width:50px;
+    text-decoration: none;
+    color:black;
+}

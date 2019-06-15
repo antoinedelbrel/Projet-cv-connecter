@@ -3,13 +3,13 @@
     <head>
         <title>CONTACT</title>
         <meta charset = "utf-8">
-        <link rel="stylesheet" href="./admin/css/contact.css">
+        <link rel="stylesheet" href="./css/contact.css">
         <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans" rel="stylesheet">
     </head>
     <body>
         <?php
-        include_once './includes/header.php';
+        include_once './include/header/header.php';
         ?>
         
         <h2>Contact</h2>
@@ -49,14 +49,12 @@
                 <div id="coordonees">
                     <div class="gauche">
                         <p>Adresse :</p>
-                        <p>Ville :</p>
                         <p>Téléphone :</p>
                         <p>Adresse email :</p>
                         <p>Adresse email pro :</p>
                     </div>
                     <div class="droite">
-                        <p>10 rue du cloître</p>
-                        <p>33000 Bordeaux</p>
+                        <p>10 rue du cloître 33000 Bordeaux</p>
                         <p>06-76-06-21-25</p>
                         <p>antoinedelbrel@gmail.com</p>
                         <p>antoine.delbrel@ynov.com</p>
@@ -71,9 +69,9 @@
                 </div>
             </div>
         </div>
-        <?php 
-            include_once './admin/include/footer/footer.php'
-        ?>    
+        <?php
+            include_once './include/footer/footer.php'
+        ?>        
         
     </body>
 </html>

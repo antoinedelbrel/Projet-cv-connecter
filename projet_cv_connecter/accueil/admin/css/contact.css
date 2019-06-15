@@ -1,0 +1,156 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#nav{
+    text-align:center;
+    float:right;
+    padding:0;
+    margin:0;
+    word-spacing:10px;  
+}
+li{
+    list-style:none;
+    display:inline;
+}
+.lien{
+    text-decoration:none;
+    color:black;
+}
+.lien:hover{
+    color:rgb(53, 139, 179);
+}
+.titre{
+    text-decoration:none;
+    color:black;    
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    color:#000;
+}
+#parent{
+    display:flex;
+    justify-content: space-around;
+    width:1270px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact{
+    display:flex;
+    width:50%;
+}
+form{
+    margin:0 auto;
+    width:500px;
+    height:500px;
+    padding: 1em;
+    border:1px solid#CCC;
+    border-radius: 1em; 
+}
+form div + div{
+    margin-top:2em;
+}
+label{
+    display:inline-block;
+    width: 90px;  
+}
+input, textarea{
+    width: 300px;
+    box-sizing: border-box;
+    border:1px solid#999;
+}
+input:focus, textarea:focus{
+    border-color:#000;
+}
+textarea{
+    vertical-align: top;
+    height:20em;
+    width: 30em;
+}
+#button{
+    padding-left:95px;
+}
+#button:hover{
+    color:rgb(53, 139, 179);
+}
+#second_block{
+    width:40%;
+    border:1px solid#CCC;
+    border-radius:1em;
+    /*min-height: 100vh;*/
+    background: rgb(248, 248, 248);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.identite{
+    width:150px;
+    margin-left:80px;
+}
+#coordonees{
+    color:black;
+    display:flex;
+    justify-content:space-between;
+}
+#gauche{
+    flex:1;
+    flex-direction: column;
+}
+#droite{
+    flex:2;
+    flex-direction: column;
+}
+.coor{
+    color:black;
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+}
+#loisir{
+    color:black;
+    text-align:center;
+}
+.lois{
+    color:black;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color:  #2f00ff;
+    border: 1px solid #2f00ff;
+}
+#pied{
+    display: inline;
+     
+    background-color: #000; 
+    
+}
+.foot{
+    text-align: center;
+    padding-top:20px;
+}
+#reseaux{
+    padding-top:20px;
+    justify-content: space-evenly;
+    display:flex;
+}
+.linkedin:hover{
+    color:rgb(53, 139, 179);
+}
+.linkedin{
+    text-decoration: none;
+    color:black;
+    width:50px;
+}
+/* .facebook{
+    width:100px;
+}
+.twitter{
+    width:100px;
+}  */
+.github:hover{
+    color:rgb(53, 139, 179);
+}
+.github{
+    width:50px;
+    text-decoration: none;
+    color:black;
+}

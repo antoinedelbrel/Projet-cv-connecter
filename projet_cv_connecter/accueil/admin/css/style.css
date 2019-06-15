@@ -2,7 +2,6 @@ body{
     margin:0;
     padding:0;
     font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
 }
 
 #nav{
@@ -11,7 +10,7 @@ body{
     padding:0;
     margin:0;
     word-spacing:10px;
-    
+    color:black;
 }
 li{
     list-style:none;
@@ -20,18 +19,19 @@ li{
 }
 .lien{
     text-decoration:none;
-    ;
+    color:black;
 }
 .lien:hover{
     color:rgb(53, 139, 179);
 }
-.prenom{
-    
+.titre{
+    text-decoration:none;
+    color:black;
     text-align: left;
     font-family: 'Work Sans', sans-serif;
 }
 #second{
-    background-image:url(beach.jpg);
+    background-image:url(./beach.jpg);
     background-size:cover;
     display:flex;
     flex-direction:column;
@@ -51,23 +51,39 @@ li{
     text-align:center;   
 }
 #pied{
-    display: inline;   
+    display: inline;
+     
+    background-color: #000; 
+    
 }
 .foot{
     text-align: center;
-    padding-top:50px;
+    padding-top:20px;
 }
 #reseaux{
-    justify-content: center;
-    justify-content: space-around;
+    padding-top:20px;
+    justify-content: space-evenly;
     display:flex;
 }
-.linkedin{
-    width:100px;
+.linkedin:hover{
+    color:rgb(53, 139, 179);
 }
-.facebook{
+.linkedin{
+    text-decoration: none;
+    color:black;
+    width:50px;
+}
+/* .facebook{
     width:100px;
 }
 .twitter{
     width:100px;
-} 
+}  */
+.github:hover{
+    color:rgb(53, 139, 179);
+}
+.github{
+    width:50px;
+    text-decoration: none;
+    color:black;
+}
