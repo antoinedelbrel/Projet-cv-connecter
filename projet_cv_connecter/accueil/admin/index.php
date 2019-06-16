@@ -38,6 +38,9 @@
                  echo '<p><a href="add_index.php?id=' . $donnee['id'] .'">Modifier</a></p>';
             }
             ?>
+            <form action="">
+            <textarea name="message" id="" cols="50" rows="20">Entrez votre texte</textarea>
+            </form>
             
                 
             </div>

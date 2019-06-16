@@ -14,10 +14,11 @@
         <?php
             $name = $prenom = $email = $objet = $message = '';
             if($_SERVER["REQUEST_METHOD"] == "POST"){
-                $name = test_input($_POST['nom']);
+                $name = test_input($_POST['user_name']);
                 $prenom = test_input($_POST['prenom']);
-                $email = test_input($_POST['objet']);
-                $message = test_input($_POST['message']);
+                $email = test_input($_POST['user_mail']);
+                $objet = test_input($_POST['objet']);
+                $message = test_input($_POST['user_message']);
             }
             function test_input($data){
                 $data = trim($data);
