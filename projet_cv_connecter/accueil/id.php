@@ -10,7 +10,7 @@
     <body>
 
         <?php
-        include_once './admin/include/header/header.php';
+        include_once './includes/header.php';
         ?>
         
         <div id="container">

@@ -40,16 +40,9 @@
                 <?php 
                      while($donnee = $rq->fetch()){
                         echo '<p>'. $donnee['nom'] . '</p>';
-                        ?>
-                        <div id="new">
-                            <form action="POST" action="test.php">
-                                <input type="text" name="nom" value="<?=$donnee['nom'] ?>"/>
-                                <button type="submit" value="Ajouter" >Ajouter</button>
-                            </form> 
-                        </div>
-                    <?php
+                   
                         echo '<p><a href="delete_projet.php?id=' . $donnee['id'] . '">Supprimer</a></p>';
-                        echo '<p><a href="projet.php?id=' . $donnee['id'] . '">Modifier</a></p>';
+                        echo '<p><a href="add_projet.php?id=' . $donnee['id'] . '">Modifier</a></p>';
                         
                     }
                 ?>

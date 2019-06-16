@@ -5,9 +5,6 @@
         $rq = $db->prepare('SELECT * FROM compétence WHERE id=?');
         $rq->execute([$id]);
     }
-   
-   
-    
     
 ?>
 
@@ -34,33 +31,28 @@
                         <h3>Profile</h3>
                         <p class="profil">Né le 07/11/1999</p>
                         <p class="profil">Je m'appelle Antoine Delbrel. <br>Je suis étudiant au campus d'Ynov en informatique à Bordeaux<br> et je cherche de jour en jour à développer mes connaissances et mes compétences dans ce domaine.</p>
+                        <form method="POST" action="update.php">
+                            <input type="text" name="nom" value="">
+                            <input type="submit" value="Ajouter">
+                        </form>
                     </div>
                     <div id="competence">
                         <h3>Compétence</h3>
                         <div id="niveau">
                             <div id="Langage">
-                            <?php
-                                while($donnee = $rq->fetch()){
-                                    echo '<p>'. $donnee['nom'] . '</p>';
-                                    echo '<p><a href="delete_projet.php?id=' . $donnee['id'] . '">Supprimer</a></p>';
-                                    echo '<p><a href="projet.php?id=' . $donnee['id'] . '">Modifier</a></p>';
-                                    ?>
-                                    <p>HTML5 & CSS3</p>
-                                    <p>Javascript</p>
-                                    <p>JQuery</p>
-                                    <p>Python</p>
-                                    <p>Langage C</p>
-                                    <p>Langage R</p>
-                                    <p>SQL</p>
-                                    <p>PHP</p>
-                                    <form method="POST" action="update.php">
-                                        <input type="text" name="nom" value="">
-                                        <input type="submit" value="Ajouter">
-                                    </form>
-                                    <!-- <a class="add" href="add.php">Ajouter</a> --><?php
-                                }
-                                ?>
-                                
+                                <p>HTML5 & CSS3</p>
+                                <p>Javascript</p>
+                                <p>JQuery</p>
+                                <p>Python</p>
+                                <p>Langage C</p>
+                                <p>Langage R</p>
+                                <p>SQL</p>
+                                <p>PHP</p>
+                                <form method="POST" action="update.php">
+                                    <input type="text" name="nom" value="">
+                                    <input type="submit" value="Ajouter">
+                                </form>
+                                <!-- <a class="add" href="add.php">Ajouter</a> -->
                             </div>
                             <div id="barre">
                                 <div id="htmlcss">
@@ -99,12 +91,20 @@
                         <p class="format°">Juin 2015 : Brevet des colleges</p>
                         <p class="format°">Annee 2017-2018 : Baccalaureat scientifique specialité mathematique</p>
                         <p class="format°">2018 : Formation informatique à Ynov Campus à Bordeaux</p>
+                        <form method="POST" action="update.php">
+                            <input type="text" name="nom" value="">
+                            <input type="submit" value="Ajouter">
+                        </form>
                     </div>
                     <div id="exp_pro">
                         <h3>Expérience professionnelles</h3>
                         <p class="exp">Octobre 2014 : Stage de troisieme à sport 2000 à Pau</p>
                         <p class="exp">Ete 2016 : Castrage de mais dans une ferme du bearn</p>
                         <p class="exp">Juillet-aout 2019 : Stage en developpement web chez <a class="kairos" href="https://www.kairos-agency.com/" target="_blank" alt="kairos">kairos-agency</a></p>
+                        <form method="POST" action="update.php">
+                            <input type="text" name="nom" value="">
+                            <input type="submit" value="Ajouter">
+                        </form>                   
                     </div>
                 </div>
             </div>

@@ -11,12 +11,26 @@
         <?php
         include_once './include/header/header.php';
         ?>
-        
+        <?php
+            $name = $prenom = $email = $objet = $message = '';
+            if($_SERVER["REQUEST_METHOD"] == "POST"){
+                $name = test_input($_POST['nom']);
+                $prenom = test_input($_POST['prenom']);
+                $email = test_input($_POST['objet']);
+                $message = test_input($_POST['message']);
+            }
+            function test_input($data){
+                $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data);
+                return $data;
+            } 
+        ?>
         <h2>Contact</h2>
         <div id="parent">
             <div id="contact">
                 
-                <form action="./admin/traitement_formulaire.php" method="post" id="block">
+                <form action="../contact.php" method="post" id="block">
                     <div id="nom">
                         <label for="name">Nom :</label>
                         <input type="text" class="name" name="user_name">
@@ -42,7 +56,18 @@
                     </div>
                 </form>
             </div>
-            
+            <?php 
+                echo "<h2>Your Input:</h2>";
+                echo $name;
+                echo "<br>";
+                echo $prenom;
+                echo "<br>";
+                echo $email;
+                echo "<br>";
+                echo $objet;
+                echo "<br>";
+                echo $message;
+            ?>
             <div id="second_block">
                 
                 <h2 class="coor">Coordonées</h2>

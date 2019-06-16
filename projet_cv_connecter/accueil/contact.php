@@ -11,12 +11,13 @@
         <?php
         include_once './includes/header.php';
         ?>
-        
+       
         <h2>Contact</h2>
         <div id="parent">
             <div id="contact">
                 
-                <form action="./admin/traitement_formulaire.php" method="post" id="block">
+                <!--<form action="./admin/traitement_formulaire.php" method="post" id="block">-->
+                <form method="post" action="./admin/contact.php">  
                     <div id="nom">
                         <label for="name">Nom :</label>
                         <input type="text" class="name" name="user_name">

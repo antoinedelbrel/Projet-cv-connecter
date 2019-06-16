@@ -32,14 +32,13 @@
                 <?php
             while($donnee = $rq->fetch()){
                 echo '<p>'.$donnee['id'] .'</p>';
-                echo '<p><a href="delete.php?id=' . $donnee['id'] .'">Supprimer</a></p>';
-            ?>
-            <form method="POST" action="test.php">
-                <textarea type="text" name="nom" value="<?= $donnee['id'] ?>"></textarea>
-                <?php echo '<p><a href="index.php?id=' . $donnee['id'] .'">Modifier</a></p>';
+                echo '<p><a href="delete_index.php?id=' . $donnee['id'] .'">Supprimer</a></p>';
+            
+            
+                 echo '<p><a href="add_index.php?id=' . $donnee['id'] .'">Modifier</a></p>';
             }
             ?>
-            </form> 
+            
                 
             </div>
         </div>

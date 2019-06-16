@@ -3,4 +3,4 @@
 
     $_SESSION = [];
     session_destroy();
-    header('location:../id.php');
+    header('location:../index.php');
