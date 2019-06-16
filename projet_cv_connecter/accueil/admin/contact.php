@@ -12,6 +12,12 @@
         include_once './include/header/header.php';
         ?>
         <?php
+            function test_input($data){
+                $data = trim($data);
+                $data = stripslashes($data);
+                $data = htmlspecialchars($data);
+                return $data;
+            } 
             $name = $prenom = $email = $objet = $message = '';
             if($_SERVER["REQUEST_METHOD"] == "POST"){
                 $name = test_input($_POST['user_name']);
@@ -20,12 +26,7 @@
                 $objet = test_input($_POST['objet']);
                 $message = test_input($_POST['user_message']);
             }
-            function test_input($data){
-                $data = trim($data);
-                $data = stripslashes($data);
-                $data = htmlspecialchars($data);
-                return $data;
-            } 
+            
         ?>
         <h2>Contact</h2>
         <div id="parent">
