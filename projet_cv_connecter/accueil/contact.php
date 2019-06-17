@@ -17,7 +17,7 @@
             <div id="contact">
                 
                 <!--<form action="./admin/traitement_formulaire.php" method="post" id="block">-->
-                <form method="post" action="./admin/contact.php">  
+                <form method="post" action="./admin/traitement_formulaire.php">  
                     <div id="nom">
                         <label for="name">Nom :</label>
                         <input type="text" class="name" name="user_name">

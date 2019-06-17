@@ -70,6 +70,7 @@
                 echo "<br>";
                 echo $message;
             ?>
+
             <div id="second_block">
                 
                 <h2 class="coor">Coordonées</h2>
